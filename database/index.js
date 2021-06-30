@@ -5,7 +5,7 @@ const { get } = require("http");
 const  mongoose = require("mongoose");
 
 //database
-const database = require("./database");
+const database = require("../database");
 
 //initialization
 const booky = express();
